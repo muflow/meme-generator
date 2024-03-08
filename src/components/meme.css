@@ -1,12 +1,22 @@
 main {
     padding: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
 }
 
 
 .form {
     display: grid;
-    grid-template: 40px 40px / 1fr 1fr;
+    grid-template: 100% 60% / 1fr 1fr;
     gap: 16px;
+    text-align: left;
+    
+}
+
+.form--label {
+    margin-bottom: 6px;
+
 }
 
 .form--input {
@@ -14,9 +24,12 @@ main {
     border-radius: 6px;
     border: 1px solid #D5D4D8;
     text-indent: 6px;
+    height: 35px;
+    width: 100%;
 }
 
 .form--button {
+    
     grid-column: 1 / -1;
     font-family: "Nunito", sans-serif;
     border-radius: 6px;
@@ -25,3 +38,4 @@ main {
     border: none;
     cursor: pointer;
 }
+
