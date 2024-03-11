@@ -1,4 +1,4 @@
-import logo from "../../public/img/meme_dog_icon.png"
+import logo from '../../public/img/meme_dog_icon.png';
 
 import "./header.css"
 
