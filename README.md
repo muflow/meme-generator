@@ -60,4 +60,4 @@ This application utilizes the [Meme API](https://api.imgflip.com/get_memes) to f
 
 ## Credits
 
-This application was created by Bob Ziroll.
+Original project by by Bob Ziroll.
