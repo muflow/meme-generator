@@ -39,7 +39,7 @@ main {
   position: relative;
 }
 
-.meme--image {
+.meme-image {
   max-width: 100%;
   border-radius: 3px;
 }
