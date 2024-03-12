@@ -2,6 +2,8 @@
 
 This React application allows users to generate memes by entering text into two input fields and clicking a button. The application fetches meme images from an external API and overlays the entered text onto the image to create a new meme.
 
+![This is an alt text.](./public/img/screenshot.png 'screenshot of the UI.')
+
 ## Features
 
 Simple and intuitive user interface.
