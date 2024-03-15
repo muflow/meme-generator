@@ -9,7 +9,7 @@ export default function Headers() {
           <img className="meme-logo" src={logo} alt="meme logo" />
           <h2>Meme Generator</h2>
         </div>
-        <p>a React App</p>
+        <h5 className="header--weaving">React weaving</h5>
       </header>
     );
 }

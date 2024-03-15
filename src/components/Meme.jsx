@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useId } from 'react';
 import './meme.css';
 
 export default function Meme() {
@@ -15,6 +15,8 @@ export default function Meme() {
       .then((res) => res.json())
       .then((data) => setAllMemes(data.data.memes));
   }, []);
+
+  const id = useId()
 
   function generateMeme() {
     const randomNumber = Math.floor(Math.random() * allMemes.length);
@@ -37,10 +39,10 @@ export default function Meme() {
   return (
     <main>
       <div className="form">
-        <label htmlFor="top-text">
+        <label htmlFor={id + '-topText'}>
           Top text
           <input
-            id="top-text"
+            id={id + '-topText'}
             type="text"
             placeholder="Top text here"
             className="form--input"
@@ -49,10 +51,10 @@ export default function Meme() {
             value={meme.topText}
           />
         </label>
-        <label htmlFor="bottom-text">
+        <label htmlFor={id + '-bottomText'}>
           Bottom text
           <input
-            id="bottom-text"
+            id={id + '-bottomText'}
             type="text"
             placeholder="Bottom text here"
             className="form--input"

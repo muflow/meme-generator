@@ -27,6 +27,7 @@ main {
 
 .form--button {
   grid-column: 1 / -1;
+  font-size: 1.2rem;
   font-family: 'Nunito', sans-serif;
   border-radius: 6px;
   background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
